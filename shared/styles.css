@@ -871,6 +871,11 @@ h2.page-heading {
   .photo-placeholder { min-height: 80px; }
   img.book-photo { max-height: 190px; }
   .opener-photo img.book-photo { max-height: none; }
+  .full-bleed img.book-photo,
+  img.book-photo[style*="position:absolute"],
+  img.book-photo[style*="position: absolute"] { max-height: none; height: 100%; }
+  /* full-bleed pages (cover, unit openers) own the entire sheet */
+  .page.full-bleed { height: 296.5mm; min-height: auto; }
   .img-grid .cell img.book-photo { max-height: 150px; }
   .qr-code { width: 88px; height: 88px; }
   h2.page-heading { font-size: 14pt; }
