@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cover — A Complete Guide to Tourism English</title>
+  <link rel="stylesheet" href="../shared/styles.css">
+  <style>
+    /* ---- cover-specific layout (page-local only) ---- */
+    .cover-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 22mm 18mm;
+      gap: 14px;
+    }
+
+    .cover-title {
+      font-family: var(--serif-display);
+      font-weight: 600;
+      font-size: 72pt;
+      line-height: 0.95;
+      letter-spacing: 6px;
+      color: #2E2418;
+      text-shadow: 0 2px 10px rgba(255, 252, 224, .8);
+      margin-bottom: 6mm;
+    }
+
+    .cover-title .line {
+      display: block;
+    }
+
+    .cover-title .line.italic {
+      font-style: italic;
+      letter-spacing: 10px;
+    }
+
+    .cover-pill {
+      display: inline-block;
+      background: rgba(255, 252, 224, .78);
+      border: 1.5px solid rgba(90, 70, 50, .35);
+      border-radius: var(--radius-pill);
+      padding: 9px 34px;
+      font-family: var(--serif);
+      font-size: 15pt;
+      color: #3A2E1E;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .10);
+    }
+
+    .cover-pill.subtitle {
+      font-size: 12pt;
+      font-style: italic;
+      padding: 7px 28px;
+      background: rgba(255, 252, 224, .66);
+    }
+
+    .cover-diamonds {
+      font-size: 13pt;
+      letter-spacing: 14px;
+      color: #8A7B2D;
+      margin: 4mm 0;
+    }
+
+    .cover-byline {
+      font-family: var(--sans);
+      font-variant: small-caps;
+      font-size: 12.5pt;
+      letter-spacing: 3.5px;
+      color: #FFF9E3;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, .85), 0 0 18px rgba(0, 0, 0, .6);
+    }
+
+    .cover-level {
+      margin-top: 10mm;
+      background: rgba(248, 212, 72, .82);
+      font-family: var(--sans);
+      font-weight: 700;
+      font-size: 11.5pt;
+      letter-spacing: 1.5px;
+    }
+
+    .cover-footer {
+      font-family: var(--sans);
+      font-size: 10pt;
+      letter-spacing: 4px;
+      color: #FFF9E3;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, .85), 0 0 18px rgba(0, 0, 0, .6);
+      margin-top: 3mm;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page full-bleed">
+
+    <!-- credit: Photo by Yaşar Başkurt on Pexels, https://www.pexels.com/photo/majestic-minaret-and-dome-of-samarkand-mosque-32493979/ -->
+    <img src="../assets/img/front/cover-1.jpg" alt="Iconic travel scene" width="1200" height="1600" class="book-photo"
+      style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:0;">
+
+    <div class="cover-overlay">
+      <h1 class="cover-title">
+        <span class="line">COURSE</span>
+        <span class="line italic">BOOK</span>
+      </h1>
+
+      <div class="cover-pill">A Complete Guide to Tourism English</div>
+
+      <div class="cover-pill subtitle">For Tourism &amp; Hospitality ESP Students</div>
+
+      <div class="cover-diamonds">◆ ◆ ◆</div>
+
+      <div class="cover-byline" style="color: #fff;">CREATED BY THE TOURISM ENGLISH GROUP</div>
+
+
+      <div class="cover-pill cover-level">From B1 to B2 level</div>
+
+      <div class="cover-footer">TASHKENT · 2026</div>
+    </div>
+
+    <nav class="page-nav">
+      <a href="04-contents.html">Contents</a>
+      <a href="02-title.html">Next →</a>
+    </nav>
+
+  </div>
+</body>
+
+</html>

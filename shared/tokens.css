@@ -1,0 +1,48 @@
+/* ============================================================
+   A Complete Guide to Tourism English — design tokens
+   ============================================================ */
+:root {
+  --bg-page: #FFFCE0;            /* cream */
+  --box-yellow: #FFF6BF;         /* activity content box */
+  --box-yellow-soft: #FFF9C4;
+  --ink: #2B2B2B;
+  --ink-muted: #5A5A5A;
+  --serif-display: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius-pill: 999px;
+  --radius-box: 14px;
+  --page-w: 210mm;
+  --page-h: 297mm;
+  --margin: 14mm;
+
+  /* default gradient (front/back matter — neutral cream → gold) */
+  --grad-start: #FFE9B0;
+  --grad-end: #F8D448;
+
+  /* supporting tints */
+  --useful-blue: #E3F2FD;
+  --useful-blue-border: #90CAF9;
+  --rule-orange: #FFF3E0;
+  --rule-orange-border: #FFB74D;
+  --warning-bg: #FFF0E6;
+  --warning-border: #FF7043;
+  --photo-gray: #ECEAE2;
+  --photo-gray-border: #CFCCBE;
+}
+
+/* ---- per-unit gradient palettes (see unit-colors.md) ---- */
+.unit-1  { --grad-start: #F8B4D0; --grad-end: #FFE9B0; }  /* pink → soft yellow */
+.unit-2  { --grad-start: #FF8A8A; --grad-end: #FFCBA4; }  /* coral → peach */
+.unit-3  { --grad-start: #FFB36B; --grad-end: #FFE388; }  /* orange → yellow */
+.unit-4  { --grad-start: #7FD1C7; --grad-end: #FFE388; }  /* teal → yellow */
+.unit-5  { --grad-start: #B5E48C; --grad-end: #99C7FF; }  /* green → blue */
+.unit-6  { --grad-start: #A78BFA; --grad-end: #FBCFE8; }  /* violet → pink */
+.unit-7  { --grad-start: #FCD34D; --grad-end: #FECACA; }  /* gold → rose */
+.unit-8  { --grad-start: #FB923C; --grad-end: #FDE68A; }  /* deep orange → soft yellow */
+.unit-9  { --grad-start: #FCA5A5; --grad-end: #FED7AA; }  /* rose → peach */
+.unit-10 { --grad-start: #FBA74D; --grad-end: #F8B4D0; }  /* amber → pink */
+.unit-11 { --grad-start: #FDBA74; --grad-end: #FCD34D; }  /* peach → gold */
+.unit-12 { --grad-start: #86EFAC; --grad-end: #BAE6FD; }  /* mint → sky */
+.unit-13 { --grad-start: #A7F3D0; --grad-end: #93C5FD; }  /* mint → blue */
+.unit-14 { --grad-start: #FCA5A5; --grad-end: #BBF7D0; }  /* rose → mint */
